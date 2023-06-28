@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Tourney:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300&display=swap');
+/* Criando variaveis em css usando root */
+:root{ 
+    --cor-fundo:#FBFCFF;
+    --cor-tela:#bacca4;
+    --cor-back:#D0CCD0;
+    --font-titulo:'Tourney', cursive;
+    --font-number: 'Montserrat Alternates', sans-serif;
+}
+body{
+    background-color: var(--cor-back) ;
+}
+main{
+    background-color: var(--cor-fundo);
+    text-align: center;
+    width: 15rem;
+    margin-left: 35vw;
+    height: 23rem;
+    margin-top: 25vh;
+}  
+h1{
+    font-family: var(--font-titulo);
+    padding: 1rem;
+    
+}
+.calculadora{
+    /*Centralizando uma div */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25%;
+    padding: 1rem;
+    
+}
+button{
+    height: 3rem;
+    border: solid 1px black;
+    width: 3rem;
+    background-color: var(--cor-fundo);
+    color:black;
+    font-family:var(--font-number);
+}
